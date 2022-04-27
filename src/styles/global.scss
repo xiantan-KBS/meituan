@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'iconfont';
+    /* project id 682850 */
+    src: url('http://at.alicdn.com/t/font_682850_58yfbhz7jvf.eot');
+    src: url('http://at.alicdn.com/t/font_682850_58yfbhz7jvf.eot?#iefix') format('embedded-opentype'), url('http://at.alicdn.com/t/font_682850_58yfbhz7jvf.woff') format('woff'), url('http://at.alicdn.com/t/font_682850_58yfbhz7jvf.ttf') format('truetype'), url('http://at.alicdn.com/t/font_682850_58yfbhz7jvf.svg#iconfont') format('svg');
+}
+
+@font-face {
+    font-family: 'meituan';
+    src: url(http://s0.meituan.net/bs/fe-web-meituan/c19c6e9/font/home-category-iconfont.eot?t=1503027869484);
+    src: url(http://s0.meituan.net/bs/fe-web-meituan/c19c6e9/font/home-category-iconfont.eot?t=1503027869484#iefix) format('embedded-opentype'), url(http://s0.meituan.net/bs/fe-web-meituan/c19c6e9/font/home-category-iconfont.woff?t=1503027869484) format('woff'), url(http://s0.meituan.net/bs/fe-web-meituan/c19c6e9/font/home-category-iconfont.ttf?t=1503027869484) format('truetype'), url(http://s0.meituan.net/bs/fe-web-meituan/c19c6e9/font/home-category-iconfont.svg?t=1503027869484#home-category-iconfont) format('svg')
+}
+
+@import "./var.scss";
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+html {
+    color: $word;
+    font-family: "-apple-system", "BlinkMacSystemFont", "Roboto", "Helvetica Neue", "微软雅黑", sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    &:hover {
+        color: $select;
+    }
+}
